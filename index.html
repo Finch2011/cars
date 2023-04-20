@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="./assets/Vector.png">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Elecar</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="mobile-nav" id="container">
+                <img src="./assets/logo.svg" alt="logo" class="logo" data-aos="fade-right">
+                <div  data-aos="fade-left">
+                    <hr>
+                    <hr>
+                    <hr>
+                </div>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Comunity</li>
+                </ul>
+                <button class="loggin">Login</button>
+            </div>
+        </header>
+        <section class="hero">
+            <div class="hero-txt">
+                <h1 class="title" data-aos="fade-up">Choose The Best Car</h1>
+                <h3 class="desc" data-aos="fade-up">Porsche Mission E</h3>
+                <h2 class="carname" data-aos="fade-up"> 
+                    <img src="./assets/Vector-3.svg" alt="">
+                    Electric car
+                </h2>
+            </div>
+            <div class="hero-img">
+                <img src="./assets/hero.png" alt="" id="one"  data-aos="fade">
+                <img src="assets/Group 145.png" alt="" id="two"  data-aos="fade">
+                <div class="foot">
+                    <div class="info" data-aos="fade">
+                        <img src="./assets/Group 121.svg" alt="">
+                        <h1>24°</h1>
+                        <h5>TEMPERATURE</h5>
+                    </div>
+                    <div class="info" data-aos="fade">
+                        <img src="./assets/Group 124.svg" alt="" >
+                        <h1>873</h1>
+                        <h5>MILEAGE</h5>
+                    </div>
+                    <div class="info" data-aos="fade">
+                        <img src="./assets/Group 146.svg" alt="" >
+                        <h1>94%</h1>
+                        <h5>BATTERY</h5>
+                    </div>
+                </div>
+            </div>
+            <button class="circle" id="click" onclick="switchVisible();" data-aos="fade-up">
+                START
+            </button>
+        </section>
+        <section class="car-info">
+          <div class="d">
+            <div class="info-img">
+                <img src="./assets/car-txt.png" alt="" data-aos="fade">
+            </div>
+            <div class="info-txt">
+                <h1 data-aos="fade-right">
+                    Machines With <br>
+                    Future Technology
+                </h1>
+                <p data-aos="fade-left">
+                    See the future with high-performance <br>
+                    electric cars produced by renowned brands. <br>
+                    They featurefuturistic builds and designs <br>
+                    with new and innovative platforms that last <br>
+                    a long time.
+                </p>
+                <button type="button" data-aos="fade">
+                    Know more
+                </button>
+            </div>
+          </div>
+            <div class="slide">
+                <h2 data-aos="fade-up">
+                    Choose Your Electric Car <br>
+                    Of The Porsche Brand
+                </h2>
+                <div class="slideimg">
+                    <img src="./assets/Car popular 3.png" alt="" class="slides">
+                    <img src="./assets/Car popular 2.png" alt="" class="slides">
+                    <img src="./assets/Car popular 4.png" alt="" class="slides">
+                </div>
+                <div class="slidesimgs">
+                    <img src="./assets/Car popular 3.png" alt="">
+                    <img src="./assets/Car popular 2.png" alt="">
+                    <img src="./assets/Car popular 4.png" alt="">
+                </div>
+                <div class="circleslide">
+                    <div id="dot">
+                        <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="slidess">
+                <h2 data-aos="fade-up">
+                    Choose Your Electric Car <br>
+                    Of The Porsche Brand
+                </h2>
+                <div class="slidesimgs">
+                    <img src="./assets/Car popular 3.png" alt="">
+                    <img src="./assets/Car popular 2.png" alt="">
+                    <img src="./assets/Car popular 4.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="map">
+            <h1 data-aos="fade">More Features</h1>
+            <img src="./assets/Features.png" alt="" data-aos="fade-up">
+        </section>
+        <section class="product">
+            <h1 data-aos="fade">Featured Luxury Cars</h1>
+            <div class="logos">
+                <div class="all" data-aos="fade-up">All</div>
+                <img src="./assets/arm.png" alt="" data-aos="fade-up">
+                <img src="./assets/arm1.png" alt="" data-aos="fade-up">
+                <img src="./assets/arm2.png" alt="" data-aos="fade-up">
+            </div>
+            <div class="cars">
+                <img src="./assets/Car featured 5.png" alt="" data-aos="fade-left">
+                <img src="./assets/Group 129.png" alt="" data-aos="fade-right">
+                <img src="./assets/Group 131.png" alt="" data-aos="fade-left">
+                <img src="./assets/Group 130.png" alt=""  data-aos="fade-right">
+                <img src="./assets/Group 133.png" alt=""  data-aos="fade-left">
+            </div>
+        </section>
+        <section class="cars-about">
+            <div class="txt">
+                <h1 data-aos="fade">
+                    Do You Want To Receive <br>
+                    Special Offers?
+                </h1>
+                <p data-aos="fade-up">
+                    Be the first to receive all the information <br>
+                    about our products and new cars by email <br>
+                    by subscribing
+                    to our mailing list.
+                </p>
+                <button type="button" data-aos="fade">
+                    Subscribe Now
+                </button>
+            </div>
+            <div class="img-cars">
+                <img src="./assets/subscribe 1.png" alt="" data-aos="fade-left">
+            </div>
+        </section>
+        <section class="arm-img">
+            <div class="arm-size">
+                <img src="./assets/logo1.svg" alt="" data-aos="fade">
+                <img src="./assets/logo2.svg" alt="" data-aos="fade">
+                <img src="./assets/logo3.svg" alt="" data-aos="fade">
+            </div>
+            <div class="arm-size">
+                <img src="./assets/logo4.svg" alt="" data-aos="fade">
+                <img src="./assets/logo5.svg" alt="" data-aos="fade">
+                <img src="./assets/logo6.svg" alt="" data-aos="fade">
+            </div>
+        </section>
+        <section class="footer">
+            <div class="about-com">
+                <img src="assets/logo.svg" data-aos="fade-right">
+                <p data-aos="fade">We offer the best electric cars of <br> the most recognized brands in <br> the world.</p>
+
+            </div>
+            <div class="company">
+                <h1 data-aos="fade-right">Company</h1>
+                <ul data-aos="fade">
+                    <li>About</li>
+                    <li>Cars</li>
+                    <li>History</li>
+                    <li>Shop</li>
+                </ul>
+            </div>
+            <div class="information">
+                <h1  data-aos="fade-right">information</h1>
+                <ul data-aos="fade">
+                    <li>Request a quote</li>
+                    <li>Find a dealer</li>
+                    <li>Contact us</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="Follow-us">
+                <h1 data-aos="fade-right">Followus</h1>
+                <div class="follow" data-aos="fade">
+                    <img src="./assets/Vector-1.svg" alt="">
+                    <img src="./assets/Vector-2.svg" alt="">
+                    <img src="./assets/f.svg" alt="">
+                </div>
+
+            </div>
+            <p class="copy" >Bedimcode. All rights reserved</p>
+        </section>
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="src/script.js"></script>
+</body>
+
+</html>

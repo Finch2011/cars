@@ -14,6 +14,7 @@
 body{
     background-color: var(--bg);
     overflow-x: hidden;
+    color: var(--white);
 }
 main{
     max-width: 330px;
@@ -258,6 +259,8 @@ hr{
     margin-top: 70px;
 }
 .cars-about {
+    position: relative;
+    display: flex;
     margin-top: 160px;
 }
 .cars-about .txt{
@@ -286,8 +289,10 @@ hr{
     text-align: center;
 }
 .img-cars img{
-    width: 360px;
+    width: 500px;
     margin-top: 100px;
+    position: absolute;
+    right: -309.5px;
 }
 .arm-img{
     display: flex;
@@ -329,9 +334,8 @@ hr{
 }
 .company ul{
     list-style: none;
-    color: var(--gray);
-
-
+    color:var(--white) ;
+    font-weight: 400;
 }
 .company li{
     margin-top: 15px;
@@ -455,3 +459,78 @@ ul{
       opacity:1;
     }
   }
+  /* start Login */
+  .si-up-page{
+    width: 500px ;
+    height:500px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-image: linear-gradient(35deg,#306AD9,#02DB8A);
+    color: var(--white);
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: 100px;
+  }
+  .d-in-1 , .d-in-2 ,.d-in-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .d-in-1 input{
+    width: 190px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 2px;
+    border: none;
+    outline: none;
+
+  }
+  .d-in-2 input{
+    width: 190px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 2px;
+    border: none;
+    outline: none;
+
+  }
+  .d-in-3 input{
+    width: 190px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 2px;
+    border: none;
+    outline: none;
+
+  }
+  .sub-Login{
+    width: 190px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--blue);
+    color: var(--white);
+  }
+  .acante{
+    color: var(--white);
+  }
+  .Login{
+    color: var(--blue);
+  }
+  a{
+    text-decoration:none;
+    color: white;
+  }
+  /* :root{
+    --blue:#306AD9;
+    --bg:#0A0A0B;
+    --white:#fff;
+    --green:#02DB8A;
+    --gray:#BABEC4;
+} */

@@ -1,6 +1,6 @@
 AOS.init({
-    duration: 1300,
-          })
+    duration: 1300 ,
+ })
 
 
 function switchVisible(){
@@ -54,3 +54,35 @@ function changeSlide(){
 }
 
 changeSlide();
+// start Login
+const userName2 = document.getElementById("UserName2")
+const paasword2 = document.getElementById("password2")
+const userName = document.getElementById("UserName")
+const paasword = document.getElementById("password")
+const Rpaasword = document.getElementById("r-password")
+const errors = document.getElementById("error")
+function sub() {
+  if(paasword2.value.length === 0 && userName2.value.length === 0  ){
+      errors.textContent = "password & userName none"
+  }else if(userName2.value.length < 8){
+    errors.textContent = "userName"
+  }else if(paasword2.value.length < 8){
+    errors.textContent = "password"
+  }else if(Rpaasword.value.length < 8){
+    errors.textContent = "rpassword"
+  }else{
+    localStorage.setItem("user" , userName2.value)
+    localStorage.setItem("password" , paasword2.value)
+    window.location.href = "./Login.html"
+    errors.textContent = ""
+  }
+
+}
+function submit(){
+ if(localStorage.getItem){
+  window.location.href = "./index.html"
+ }
+ else{
+  document.body.innerHTML = `<p style= " color = red ; ">password and userName not find</p>`
+ }
+}

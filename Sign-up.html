@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="./assets/Vector.png">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Elecar</title>
+</head>
+
+<body>
+    <main>
+        
+      <header>
+        <div class="mobile-nav" id="container">
+            <img src="./assets/logo.svg" alt="logo" class="logo" data-aos="fade-right">
+            <div  data-aos="fade-left">
+                <hr>
+                <hr>
+                <hr>
+            </div>
+            <ul>
+                <a href="./index.html"><li>Home</li></a>
+                <a href="#"><li>About</li></a>
+                <a href="#"><li>Contact</li></a>
+                <a href="#"><li>Comunity</li></a>
+            </ul>
+            <button class="loggin">Login</button>
+        </div>
+    </header>
+    <!-- sign in form -->
+        <section class="si-up-page">
+            <h1>Sign Up</h1>
+          <div class="d-in-1">
+            <label for="UserName2">UserName:</label>
+            <input id="UserName2" type="text">
+          </div>
+          <div class="d-in-2">
+            <label for="password2">password:</label>
+            <input id="password2" type="text">
+          </div>
+          <div class="d-in-3">
+            <label for="r-password">r-password:</label>
+            <input id="r-password" type="text">
+          </div>
+          <div class="d-in-4">
+           <label for="remeber">remeber</label>
+           <input type="checkbox" id="remeber">
+          </div>
+          <button class="sub-Login" type="submit" onclick="sub()">submit</button>
+          <p class="acante">Do you have acante ?<a href="./Login.html"><span class="Login">Login</span></a></p>
+          <div>
+            <p style="color: red;" id="error"></p>
+          </div>
+        </section>
+        <!-- end -->
+
+
+</main>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="./src/script.js"></script>
+</body>
+
+</html>

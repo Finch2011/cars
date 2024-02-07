@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="./assets/Vector.png">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Elecar</title>
+</head>
+
+<body>
+    <main>
+      
+      <header>
+        <div class="mobile-nav" id="container">
+            <img src="./assets/logo.svg" alt="logo" class="logo" data-aos="fade-right">
+            <div  data-aos="fade-left">
+                <hr>
+                <hr>
+                <hr>
+            </div>
+            <ul>
+              <a href="./index.html"><li>Home</li></a>
+              <a href="#"><li>About</li></a>
+              <a href="#"><li>Contact</li></a>
+              <a href="#"><li>Comunity</li></a>
+          </ul>
+            <button class="loggin">Login</button>
+        </div>
+    </header>
+       <!-- Login form  -->
+        <section class="si-up-page">
+            <h1>Login</h1>
+          <div class="d-in-1">
+            <label for="UserName">UserName:</label>
+            <input id="UserName" type="text">
+          </div>
+          <div class="d-in-2">
+            <label for="password">password:</label>
+            <input id="password" type="text">
+          </div>
+          <div class="d-in-4">
+           <label for="remeber">remeber</label>
+           <input type="checkbox" id="remeber">
+          </div>
+          <button class="sub-Login" type="submit" onclick="submit()">submit</button>
+          <p class="acante">Do you have not acante ?<a href="./Sign-up.html"><span class="Login">Sign up</span></a></p>
+        </section>
+      <!-- end -->
+
+
+</main>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="./src/script.js"></script>
+</body>
+
+</html>
